@@ -218,16 +218,16 @@ dependencies = [
 
 [[package]]
 name = "cranelift-bforest"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cranelift-entity",
 ]
 
 [[package]]
 name = "cranelift-codegen"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "arrayvec",
  "bumpalo",
@@ -246,29 +246,29 @@ dependencies = [
 
 [[package]]
 name = "cranelift-codegen-meta"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cranelift-codegen-shared",
 ]
 
 [[package]]
 name = "cranelift-codegen-shared"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 
 [[package]]
 name = "cranelift-entity"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "serde",
 ]
 
 [[package]]
 name = "cranelift-frontend"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cranelift-codegen",
  "log",
@@ -278,13 +278,13 @@ dependencies = [
 
 [[package]]
 name = "cranelift-isle"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 
 [[package]]
 name = "cranelift-native"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cranelift-codegen",
  "libc",
@@ -293,8 +293,8 @@ dependencies = [
 
 [[package]]
 name = "cranelift-wasm"
-version = "0.92.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "0.93.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cranelift-codegen",
  "cranelift-entity",
@@ -1513,8 +1513,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "anyhow",
  "async-trait",
@@ -1546,16 +1546,16 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-asm-macros"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cfg-if",
 ]
 
 [[package]]
 name = "wasmtime-cache"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "anyhow",
  "base64",
@@ -1573,8 +1573,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-component-macro"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "proc-macro2",
  "quote",
@@ -1586,13 +1586,13 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-component-util"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 
 [[package]]
 name = "wasmtime-cranelift"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "anyhow",
  "cranelift-codegen",
@@ -1611,8 +1611,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-environ"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "anyhow",
  "cranelift-entity",
@@ -1632,8 +1632,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-fiber"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cc",
  "cfg-if",
@@ -1644,8 +1644,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-jit"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "addr2line",
  "anyhow",
@@ -1668,8 +1668,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-jit-debug"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "object",
  "once_cell",
@@ -1678,8 +1678,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-jit-icache-coherence"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cfg-if",
  "libc",
@@ -1688,8 +1688,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-runtime"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "anyhow",
  "cc",
@@ -1713,8 +1713,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-types"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "cranelift-entity",
  "serde",
@@ -1724,8 +1724,8 @@ dependencies = [
 
 [[package]]
 name = "wasmtime-wit-bindgen"
-version = "5.0.0"
-source = "git+https://github.com/bytecodealliance/wasmtime#52ba72f3412357e2dde616df9c6b954d34431ebe"
+version = "6.0.0"
+source = "git+https://github.com/mossaka/wasmtime?branch=patch-for-go-wit-bindgen#c516a1adbeae31fa1e4d5288abf9530a3b4382d6"
 dependencies = [
  "anyhow",
  "heck",
